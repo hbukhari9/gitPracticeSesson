@@ -95,7 +95,7 @@ public class UserManagementTests {
 			
 			@Given("As a user, I am on the login page")
 			public void as_a_user_i_am_on_the_login_page() {
-				Driver.getDriver().get("www.google.com");
+				Driver.getDriver().get(TestDataReder.getProperty("appurl"));
 				Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 				Driver.getDriver().manage().window().maximize();
 			}
