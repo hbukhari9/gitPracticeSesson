@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(  
                  features="./src/test/resources/features",
                  glue="Test",
-                 tags=" @invalidEmailLogin"
+                 tags=" @dashboardButtons"
                  )
 public class TestRunner {
 
